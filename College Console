@@ -1,0 +1,25 @@
+Module College Console
+
+    Sub Main()
+        Dim Name As String
+        Dim Surname As String
+        Dim age As Integer
+
+        Console.Write("Enter Name: ")
+        Name = Console.ReadLine()
+        Console.Write("Enter Surname: ")
+        Surname = Console.ReadLine()
+        Console.Write("Enter your age: ")
+        age = Console.ReadLine
+        Console.ReadLine()
+        Console.Write("Dear {0} {1} {2} {3}", Surname, Name, vbCrLf, StrDup(28, "="))
+        Console.WriteLine()
+
+
+        If age > 24 Then Console.WriteLine("Congratulations, You qualify for an exemption.")
+        If age < 25 Then Console.WriteLine("Sorry, You don't qualify for an exemption.")
+
+        Console.WriteLine()
+    End Sub
+
+End Module
